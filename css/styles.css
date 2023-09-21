@@ -1,0 +1,263 @@
+/*----------------- NAVBAR - FOOTER --------------------------------*/
+.nav-link a:hover {
+    opacity: 0.5;
+}
+.social-item a {
+    display: block;
+    font-size: 40px;
+    color: #fff;
+}
+.social-item a:hover {
+    opacity: 0.5;
+}
+button:hover {
+    opacity: 0.5;
+}
+.hover:hover {
+    opacity: 0.5;
+}
+.hoverbutton:hover {
+    background: linear-gradient(to right, rgb(227, 10, 213), rgb(134, 78, 198), rgb(82, 150, 247));
+    background: -moz-linear-gradient(to right, rgb(227, 10, 213), rgb(134, 78, 198), rgb(82, 150, 247));
+    background: linear-gradient(to right, rgb(227, 10, 213), rgb(134, 78, 198), rgb(82, 150, 247));
+    background-clip: initial;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text-deg {
+    background: linear-gradient(to right, rgb(227, 10, 213), rgb(134, 78, 198), rgb(82, 150, 247));
+    background: -moz-linear-gradient(to right, rgb(227, 10, 213), rgb(134, 78, 198), rgb(82, 150, 247));
+    background: linear-gradient(to right, rgb(227, 10, 213), rgb(134, 78, 198), rgb(82, 150, 247));
+    background-clip: initial;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1rem;
+}
+.text-deg a:hover {
+    -webkit-text-fill-color: white;
+    opacity: 0.9;
+}
+.suscbutton {
+    background: linear-gradient(to right, rgb(227, 10, 213), rgb(134, 78, 198), rgb(82, 150, 247));
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+/*------------------- MAINPAGE ----------------------*/
+.sugerido {
+    display: flex;
+    margin: 0.5rem;
+    justify-content: space-around;
+}
+.sugerido .item {
+    margin: 0.5rem;
+}
+.card-sug {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.categoria {
+    border-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.3s;
+}
+.categoria:hover {
+    transform: scale(1.2);
+    background: rgb(194, 194, 194) !important;
+}
+.categoria p {
+    margin: 0;
+}
+.texto-s {
+    text-shadow: 3px 3px 10px rgb(0, 0, 0);
+    font-size: 5rem;
+}
+.texto-sw {
+    text-shadow: 3px 3px 10px rgb(255, 255, 255);
+}
+.contenedor-cards {
+    transition: all 0.3s;
+}
+.contenedor-cards:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px rgb(168, 168, 168);
+}
+
+/*------------------- SUSCRPTION PAGE ----------------------*/
+.formsusc {
+    margin: auto;
+    background: linear-gradient(to right, rgb(227, 10, 213), rgb(134, 78, 198), rgb(82, 150, 247));
+
+    max-width: 400px;
+    padding: 30px;
+    margin: auto;
+    box-shadow: 0px 5px 10px -5px rgb(0, 0, 0 / 30%);
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: black;
+}
+.cardsusc {
+    color: white !important;
+    background-color: #711c79f8 !important;
+    font-size: 4vw !important;
+}
+.ctabutton {
+    background-color: black;
+    background: -moz-linear-gradient(to right, rgb(227, 10, 213), rgb(134, 78, 198), rgb(82, 150, 247));
+    background-clip: initial;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*------------------- ABOUT US ----------------------*/
+.our-team {
+    align-content: center;
+    border-left: 8px solid rgb(82, 150, 247);
+    border-bottom: 8px solid rgb(134, 78, 198);
+    margin-top: 10%;
+}
+.our-team .team-image {
+    position: relative;
+    text-align: center;
+    align-content: center;
+}
+.our-team-title {
+    font-size: 5vw;
+    padding-bottom: 5px;
+}
+.our-team img {
+    background-size: contain;
+    width: 100%;
+}
+.our-team .description {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    color: #fff;
+    line-height: 30px;
+    padding: 30px 30px;
+    opacity: 0;
+    background-color: rgb(82, 150, 247);
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover .description {
+    opacity: 0.7;
+}
+.our-team .social {
+    padding: 10px 0 0 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    top: 40px;
+    left: -27px;
+    background: rgb(82, 150, 247);
+    text-align: center;
+    transform: translate(25px, 0px) rotateY(90deg);
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover .social {
+    transform: translate(0px, 0px) rotateY(0deg);
+}
+.our-team .social li {
+    display: block;
+    margin-bottom: 10px;
+}
+.our-team .social li a {
+    display: block;
+    width: 40px;
+    height: 35px;
+    font-size: 17px;
+    color: #fff;
+    line-height: 30px;
+    transition: all 0.5s ease 0s;
+}
+.our-team .social li a:hover {
+    opacity: 0.5;
+}
+.our-team .team-info {
+    padding: 20px;
+}
+.our-team .title {
+    font-size: 18px;
+    color: rgb(82, 150, 247);
+    letter-spacing: 4px;
+    margin: 0 0 15px 0;
+    transition: all 0.5s ease 0s;
+}
+.our-team .post {
+    display: block;
+    font-size: 14px;
+    color: rgb(134, 78, 198);
+    text-transform: capitalize;
+}
+.our-team .title:hover,
+.our-team .post:hover {
+    color: rgb(227, 10, 213);
+}
+
+/*--------------------------CONTACT------------------------*/
+.contactform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contactform input {
+    width: 60vw;
+    min-width: 300px;
+    max-width: 650px;
+}
+.textarea textarea {
+    width: 60vw;
+    height: 150px;
+    min-width: 300px;
+    max-width: 650px;
+}
+.contacttitle1 {
+    font-size: 4vw;
+}
+.map {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.contacttitle {
+    width: 30%;
+    display: inline;
+    font-size: 2.5vw;
+    margin-right: 20px;
+}
+.embed-container {
+    width: 50vw;
+    height: 30vw;
+}
+
+/*--------------------------MEDIAQUERY------------------------*/
+@media only screen and (max-width: 990px) {
+    .our-team {
+        margin-bottom: 30px;
+    }
+    headerstick {
+        position: sticky;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .our-team .social {
+        left: -20px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .our-team .social {
+        left: -20px;
+    }
+}
